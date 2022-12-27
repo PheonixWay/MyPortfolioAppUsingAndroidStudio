@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inquiry"
+    android:orientation="vertical"
+    android:background="@drawable/all_activity_background_image">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/transparent_logo"
+            android:layout_marginTop="-25dp"
+            android:contentDescription="Logo" />
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Feedback form"
+            android:textSize="35sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/product_sans_bold"
+            />
+
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Full name"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/product_sans_bold"
+            android:layout_marginStart="50dp"
+            />
+        <EditText
+            android:id="@+id/inquiry_full_name_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:padding="10dp"
+            android:fontFamily="@font/productsansregular"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@drawable/all_activity_design_background"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="E-mail"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/product_sans_bold"
+            android:layout_marginStart="50dp"
+            />
+        <EditText
+            android:id="@+id/inquiry_email_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:padding="10dp"
+            android:fontFamily="@font/productsansregular"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@drawable/all_activity_design_background"/>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Number"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/product_sans_bold"
+            android:layout_marginStart="50dp"
+            />
+        <EditText
+            android:id="@+id/inquiry_number_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:padding="10dp"
+            android:fontFamily="@font/productsansregular"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@drawable/all_activity_design_background"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/product_sans_bold"
+            android:layout_marginStart="50dp"
+            />
+
+        <EditText
+            android:id="@+id/inquiry_message_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:fontFamily="@font/productsansregular"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@drawable/all_activity_design_background"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/inquiry_submit_id"
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textStyle="bold"
+            android:letterSpacing="0.05"
+            android:textColor="@color/white"
+            android:background="@drawable/circle_shape"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

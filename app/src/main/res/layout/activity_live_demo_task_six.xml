@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Live_demo_task_six"
+    android:orientation="vertical"
+    android:background="@drawable/all_activity_background_image">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/background_style_for_skill_page"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_marginTop="25sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login Demo"
+            android:textColor="@color/black"
+            android:fontFamily="@font/productsansregular"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We will send OTP to this number to verify"
+            android:textSize="18sp"
+            android:fontFamily="@font/productsansregular"/>
+
+
+        <EditText
+            android:id="@+id/demo_phone_number_id"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/all_activity_design_background"
+            android:gravity="center"
+            android:hint="Enter your Number"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black"
+            tools:ignore="TextFields"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/demo_submit_id"
+            android:layout_marginTop="40sp"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_shape"
+            android:textColor="@color/white"
+            android:text="submit"/>
+
+        <TextView
+            android:id="@+id/demo_login_with_email_id"
+            android:layout_marginTop="20dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login with E-mail"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/productsansregular"/>
+        <TextView
+            android:id="@+id/demo_create_new_account_id"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create New Account"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/productsansregular"/>
+
+        <TextView
+            android:id="@+id/error_show_id"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="30dp"
+            android:textColor="#FF0202"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/complete_show_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#00FF0A"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

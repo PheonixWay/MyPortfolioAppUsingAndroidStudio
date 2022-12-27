@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uef_internship_page_one"
+    android:background="@drawable/all_activity_background_image"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/background_style_for_skill_page"
+            >
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Danish ansari"
+                android:textColor="@color/black"
+                android:textSize="11dp"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:fontFamily="@font/product_sans_bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" UEF INTERNSHIP TASK"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#545454"
+                android:layout_marginBottom="10dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/background_style_for_skill_page"
+            android:orientation="vertical"
+            android:paddingBottom="20sp">
+
+            <Button
+                android:id="@+id/task_1_id"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/button_design_for_experience"
+                android:fontFamily="@font/calistoga"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Task 1"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/task_2_id"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/button_design_for_experience"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Task 2"
+                android:textColor="@color/white"
+                android:fontFamily="@font/calistoga"/>
+            <Button
+                android:id="@+id/task_3_id"
+                android:fontFamily="@font/calistoga"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/button_design_for_experience"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Task 3"
+                android:textColor="@color/white" />
+            <Button
+                android:id="@+id/task_4_id"
+                android:fontFamily="@font/calistoga"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/button_design_for_experience"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Task 4"
+                android:textColor="@color/white" />
+            <Button
+                android:id="@+id/task_5_id"
+                android:fontFamily="@font/calistoga"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/button_design_for_experience"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Task 5"
+                android:textColor="@color/white" />
+            <Button
+                android:id="@+id/task_6_id"
+                android:fontFamily="@font/calistoga"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/button_design_for_experience"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Task 6"
+                android:textColor="@color/white" />
+            <Button
+                android:id="@+id/task_7_id"
+                android:layout_width="200dp"
+                android:fontFamily="@font/calistoga"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/button_design_for_experience"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Task 7"
+                android:textColor="@color/white" />
+            <Button
+                android:id="@+id/task_8_id"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/calistoga"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/button_design_for_experience"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Task 8"
+                android:textColor="@color/white" />
+            <Button
+                android:id="@+id/task_9_id"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/calistoga"
+                android:background="@drawable/button_design_for_experience"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Task 9"
+                android:textColor="@color/white" />
+            <Button
+                android:id="@+id/task_10_id"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/calistoga"
+                android:background="@drawable/button_design_for_experience"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Task 10"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

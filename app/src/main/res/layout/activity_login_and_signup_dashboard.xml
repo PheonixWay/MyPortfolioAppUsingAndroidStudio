@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_and_signup_dashboard"
+    android:orientation="vertical"
+    android:background="@drawable/all_activity_background_image"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/transparent_logo"
+                android:layout_marginTop="-25dp"
+                android:contentDescription="Logo" />
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:background="@drawable/background_style_for_skill_page"
+                >
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome to account"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/product_sans_bold"
+                    />
+                <Button
+                    android:id="@+id/loginWithNumber_id"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Login with phone number"
+                    android:background="@drawable/circle_shape"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    />
+
+                <Button
+                    android:id="@+id/login_with_email_id"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/circle_shape"
+                    android:text="Login with E-mail"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:layout_width="350dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:background="@drawable/background_style_for_skill_page"
+                >
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="Create new account"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/product_sans_bold"
+                    />
+
+
+                <Button
+                    android:id="@+id/signupWithEmail_id"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Signup with E-mail"
+                    android:background="@drawable/circle_shape"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:background="@drawable/background_style_for_skill_page"
+                >
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="Don't want to create account"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/product_sans_bold"
+                    />
+
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/continue_as_guest_id"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="continue as guest"
+                    android:background="@drawable/circle_shape"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:layout_width="350dp"
+                android:layout_height="140dp"
+                android:orientation="vertical"
+                android:background="@drawable/background_style_for_skill_page"
+                android:layout_marginBottom="40dp"
+                >
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="Or continue with"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/product_sans_bold"
+                    />
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <ImageButton
+                        android:id="@+id/google_login_id"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="@color/white"
+                        android:layout_weight="2"
+                        android:src="@drawable/google_logo_black_white_transperant" />
+                    <ImageButton
+                        android:id="@+id/facebook_login_id"
+                        android:layout_marginEnd="60dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="50dp"
+                        android:background="@color/white"
+                        android:layout_weight="2"
+                        android:layout_gravity="center"
+                        android:src="@drawable/facebook_seventy_logo" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>

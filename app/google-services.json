@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "532802360704",
+    "project_id": "app-devlopment-26a8d",
+    "storage_bucket": "app-devlopment-26a8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532802360704:android:5e3536d0cc994aca4a5d65",
+        "android_client_info": {
+          "package_name": "com.example.danish_portfolio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532802360704-vh2abcnctk0hkraq7p47ku33kb9j8q9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCImPNPTUx3qCPy8hbVZEd-jQp5BaUrQdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532802360704-vh2abcnctk0hkraq7p47ku33kb9j8q9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

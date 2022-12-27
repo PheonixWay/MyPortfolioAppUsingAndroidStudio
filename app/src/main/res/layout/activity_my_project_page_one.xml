@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".my_project_page_one"
+    android:orientation="vertical"
+    android:background="@drawable/all_activity_background_image">
+    <TextView
+        android:gravity="center"
+        android:padding="20sp"
+        android:layout_marginTop="300dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Work in progress coming soon"
+        android:textSize="30dp"/>
+
+</LinearLayout>

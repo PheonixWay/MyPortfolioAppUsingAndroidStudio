@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Portfolio</string>
+    <string name="title_activity_loginandsignup">Loginandsignup</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello this is second fragment here i can design more thing</string>
+    <string name="wani_public_school_description">I have completed my 10th study from wani public school at wani,i scored 83 percentage year 2019  which is conducted by Maharashtra State Board of Secondary and Higher Secondary Education, Pune  .i also participated to extra curriculum like sports and other events afterwards teacher guided us for further study.</string>
+    <string name="shusaganga_polytechnic_description">I am currently pursuing Diploma in Shusganga Polytechnic</string>
+    <string name="spm_college_description">I have completed my 12th study from s.p.m high school and jr college at wani,i scored  81.17 percentage Year 2021 which is conducted by Maharashtra State Board of Secondary and Higher Secondary Education, Pune .i also played division cricket matches and participated in different games for district level like kho-kho,kabaddi and rugby.After that i decide to do Computer engineering.so i taken admission to shusganga polytechnic for engineering journey</string>
+    <string name="about_me_description">Hello, my name is danish ansari currently pursing diploma in computer engineering at Sushganga Polytechnic Naigao Wani. I am so much interested in computer field since childhood i really like to do work on computer and my main goal is to work with great developer for development of computer field.</string>
+    <string name="facebook_app_id">466893221490198</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">d2da103a6bc1ad872864f22be1c2a6c9</string>
+    <string name="theory">Theory:-</string>
+    <string name="_1_create_a_sign_up_form_using_android_studio_component">1.Create a sign up form using Android studio component</string>
+    <string name="title_activity_live_demo_task_four">live_demo_task_four</string>
+    <string name="tab_text_1">First Fragment</string>
+    <string name="tab_text_2">Second Fragment</string>
+
+</resources>

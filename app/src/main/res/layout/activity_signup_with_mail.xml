@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup_with_mail"
+    android:orientation="vertical"
+    android:background="@drawable/all_activity_background_image">
+
+    <ImageView
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="130dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/transparent_logo"
+        android:contentDescription="Logo" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:background="@drawable/background_style_for_skill_page"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_marginTop="25sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create new Account"
+            android:textColor="@color/black"
+            android:fontFamily="@font/productsansregular"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+
+        <EditText
+            android:id="@+id/email_register_id"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/all_activity_design_background"
+            android:hint="Enter your e-mail"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/password_register_id"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/all_activity_design_background"
+            android:hint="Enter your Password"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/register_id"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_shape"
+            android:textColor="@color/white"
+            android:text="register"/>
+
+        <TextView
+            android:id="@+id/error_show_id"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="20dp"
+            android:textColor="#FF0202"
+            android:textSize="15sp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

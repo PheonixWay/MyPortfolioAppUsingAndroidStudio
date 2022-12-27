@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_with_number_otp_submit_page"
+    android:orientation="vertical"
+    android:background="@drawable/all_activity_background_image">
+
+    <ImageView
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="130dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/transparent_logo"
+        android:contentDescription="Logo" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:background="@drawable/background_style_for_skill_page"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_marginTop="25sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your OTP send to "
+            android:textColor="@color/black"
+            android:fontFamily="@font/productsansregular"
+            android:textStyle="bold"
+            android:textSize="23sp"/>
+        <TextView
+            android:id="@+id/show_number"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textColor="@color/black"
+            android:fontFamily="@font/productsansregular"
+            android:textStyle="bold"
+            android:textSize="23sp"/>
+        <LinearLayout
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <EditText
+                android:layout_marginStart="10dp"
+                android:id="@+id/number_1"
+                android:paddingStart="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:inputType="number"
+                android:layout_weight="1"
+                android:maxLength="1"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:id="@+id/number_2"
+                android:paddingStart="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:inputType="number"
+                android:layout_weight="1"
+                android:maxLength="1"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:id="@+id/number_3"
+                android:paddingStart="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:inputType="number"
+                android:layout_weight="1"
+                android:maxLength="1"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/number_4"
+                android:paddingStart="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:inputType="number"
+                android:layout_weight="1"
+                android:maxLength="1"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/number_5"
+                android:paddingStart="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:inputType="number"
+                android:layout_weight="1"
+                android:maxLength="1"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/number_6"
+                android:paddingStart="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:inputType="number"
+                android:layout_weight="1"
+                android:layout_marginEnd="10dp"
+                android:maxLength="1"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+
+
+
+        <Button
+            android:id="@+id/login_id"
+            android:layout_marginTop="40sp"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_shape"
+            android:textColor="@color/white"
+            android:text="login"/>
+
+        <TextView
+            android:id="@+id/error_show_id"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="30dp"
+            android:textColor="#FF0202"
+            android:textSize="15sp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
